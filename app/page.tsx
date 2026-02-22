@@ -11,10 +11,12 @@ import TestimonialsSection from '@/components/testimonials-section';
 import BlogSection from '@/components/blog-section';
 import NewsletterSection from '@/components/newsletter-section';
 import Footer from '@/components/footer';
+import Header from '@/components/header';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
+      <Header/>
       <HeroSection />
       <BenefitsSection />
       <ServicesSection />
