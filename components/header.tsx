@@ -21,8 +21,8 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           
-           <img src="/logos/VB.logo.png" alt="" 
-           className="h-12 w-25 object-contain"/>
+           <img src="/logos/VB full logo.png" alt="" 
+           className="h-17 w-55 object-contain"/>
 
         
         </Link>

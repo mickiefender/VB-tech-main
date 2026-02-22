@@ -7,6 +7,7 @@ export interface Service {
   image: string;
   gallery: string[];
   features: string[];
+  video?: string;
 }
 
 export const servicesData: Service[] = [
@@ -24,8 +25,7 @@ export const servicesData: Service[] = [
       '/services-images/vertex-cards/brands.png',
       '/services-images/vertex-cards/pricing section.png',
       '/services-images/vertex-cards/Quota.png',
-      '/services/vertex-cards/gallery-5.jpg',
-      '/services/vertex-cards/gallery-6.jpg',
+      
     ],
     features: [
       'NFC Technology Integration',
@@ -35,6 +35,7 @@ export const servicesData: Service[] = [
       'Customizable Designs',
       'Mobile App Integration',
     ],
+    video: '/video/Video_Update_With_Custom_Images.mp4',
   },
   {
     id: 'school-management',
@@ -60,6 +61,7 @@ export const servicesData: Service[] = [
       'Fee Management',
       'Exam Scheduling',
     ],
+    video: '/videos/school-management-demo.mp4',
   },
   {
     id: 'restaurant-management',
@@ -85,6 +87,7 @@ export const servicesData: Service[] = [
       'Staff Management',
       'Table Reservations',
     ],
+    video: '/videos/restaurant-management-demo.mp4',
   },
   {
     id: 'mobile-apps',
@@ -111,6 +114,7 @@ export const servicesData: Service[] = [
       'API Integration',
       'App Maintenance & Support',
     ],
+    video: '/videos/mobile-apps-demo.mp4',
   },
   {
     id: 'web-development',
@@ -137,6 +141,7 @@ export const servicesData: Service[] = [
       'SEO Optimization',
       'Performance Tuning',
     ],
+    video: '/videos/web-development-demo.mp4',
   },
 ];
 

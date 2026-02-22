@@ -11,6 +11,7 @@ export interface Solution {
   description: string;
   fullDescription: string;
   images: string[];
+  video?: string;
 }
 
 interface SolutionModalProps {
