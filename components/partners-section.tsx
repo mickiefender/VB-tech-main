@@ -53,9 +53,9 @@ export default function PartnersSection() {
         {/* Stats remain unchanged */}
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 bg-gradient-to-r from-primary to-primary/90 rounded-2xl p-8 sm:p-12 text-white">
           {[
-            { number: '500+', label: 'Happy Clients', target: 500 },
-            { number: '1000+', label: 'Projects Delivered', target: 1000 },
-            { number: '25+', label: 'Years Experience', target: 25 },
+            { number: '99+', label: 'Happy Clients', target: 99 },
+            { number: '100+', label: 'Projects Delivered', target: 100 },
+            { number: '7+', label: 'Years Experience', target: 7 },
           ].map((stat, i) => (
             <StatCounter key={i} stat={stat} delay={i * 150} />
           ))}

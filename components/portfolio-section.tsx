@@ -44,23 +44,31 @@ const projects = [
     link: 'https://mickiefender.github.io/meditracker/',
   },
   {
-    title: 'EduConnect - Learning Platform',
-    category: 'E-Learning',
+    title: 'Election Campaign Website for NPP(New Patriotic Party)',
+    category: 'Campaign Management',
     description:
-      'Interactive online learning platform with video streaming and assessments',
-    image: '/hero-bg.jpg',
-    tags: ['E-Learning', 'Video', 'Analytics'],
-    link: '/projects/educonnect',
+      'Dynamic campaign website with event management, volunteer coordination, and donation processing',
+    image: '/services-images/Election-campaign/Screenshot 2026-02-22 at 1.40.51 PM.png',
+    tags: ['Election', 'Donation', 'Analytics'],
+    link: 'https://drdwamenaelections.org/',
   },
   {
-    title: 'RetailPro - Inventory System',
-    category: 'Retail Management',
+    title: 'Ecommerce website for a boutique-KimverseLuxe',
+    category: 'Ecommerce',
     description:
-      'Multi-branch retail management with real-time inventory tracking',
-    image: '/hero-bg.jpg',
+      'Custom ecommerce platform with product management, shopping cart, and payment integration',
+    image: '/services-images/kimverse/Screenshot 2026-02-22 at 1.48.23 PM.png',
     tags: ['Retail', 'Multi-branch', 'Analytics'],
-    link: '/projects/retailpro',
+    link: 'https://mickiefender.github.io/kimverseluxe/',
   },
+  {
+    title: 'Website for a real estate company-Baltic Properties',
+    category: 'Real Estate',
+    description:  'Custom real estate listing website with property management, search functionality, and contact forms ',
+    image: '/services-images/Baltic.png',
+    tags: ['Retail', 'Multi-branch', 'Analytics'],    
+    link: 'https://mickiefender.github.io/Baltic-Properties/',
+  }
 ];
 
 export default function PortfolioSection() {

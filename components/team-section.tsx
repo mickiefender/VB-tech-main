@@ -6,13 +6,13 @@ import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const team = [
   {
-    name: 'Sarah Johnson',
+    name: 'Michael Coleman',
     role: 'Chief Executive Officer',
-    bio: 'Visionary leader with 15+ years in enterprise software',
-    image: '/team.jpg',
+    bio: 'Visionary leader with 7+ years in enterprise software',
+    image: '/hero/Single-image.jpeg',
   },
   {
-    name: 'Michael Chen',
+    name: 'Samuel Chen',
     role: 'Chief Technology Officer',
     bio: 'Expert in cloud architecture and system design',
     image: '/team.jpg',

@@ -42,16 +42,7 @@ export default function StatsCTASection() {
             </Button>
           </div>
 
-          {/* Right side - Stats */}
-          <div className="space-y-8 animate-slide-in-right">
-            {[
-              { number: '18K+', label: 'Projects Done', icon: '📊', target: 18000 },
-              { number: '7K+', label: 'Happy Customers', icon: '😊', target: 7000 },
-              { number: '4.7', label: 'Customer Rating', icon: '⭐', target: 4.7, isDecimal: true },
-            ].map((stat, i) => (
-              <StatItem key={i} stat={stat} delay={(i + 2) * 150} />
-            ))}
-          </div>
+          
         </div>
       </div>
     </section>

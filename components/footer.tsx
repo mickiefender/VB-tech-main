@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="animate-slide-in-up">
             <h3 className="text-2xl font-bold mb-4">
-              <span className="text-accent">Vertex</span> Blueprint
+              <span className="text-accent">Vertex</span> Blueprint Technologies
             </h3>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
               Transforming businesses with innovative software solutions and cutting-edge technology.
@@ -103,11 +103,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+233 208517482</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <span>hello@vertexblueprint.com</span>
+                <span>vertexblueprinttechnologies@gmail.com</span>
               </li>
             </ul>
           </div>
